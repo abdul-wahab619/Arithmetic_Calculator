@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    padding: 22px;
+    margin: 0 -2.5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.row button{
+    background-color:white;
+}
+
+.row input{
+    font-size: 17px;
+    margin: 0;
+    padding: 20px 2px;
+    border: 2px solid black;
+    border-radius: 1px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.row1 button{
+    padding: 17.5px;
+    background-color: gray;
+}

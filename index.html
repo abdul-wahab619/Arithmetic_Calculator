@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="utility.css" rel="stylesheet" type="text/css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+      </style>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="text-center">Welcome to Calculator</h1>
+    <div class="container items-center max-auto bg-red flex flex-col">
+        <div class="row">
+            <input id="result" type="text">
+        </div>
+        <div class="row">
+            <button onclick="reverseMove()" class="button">rev</button>
+            <button onclick="forwardMove()" class="button">fwd</button>
+        </div>
+        <div class="row1">
+            <button onclick="clearResult()" class="button">C</button>
+            <button onclick="deleteLast()" class="button">CE</button>
+            <button onclick="getprev()" class="button">MG</button>
+            <button onclick="appendValue('%')" class="button">%</button>
+        </div>
+        <div class="row">
+            <button onclick="appendValue('7')" class="button">7</button>
+            <button onclick="appendValue('8')" class="button">8</button>
+            <button onclick="appendValue('9')" class="button">9</button>
+            <button onclick="appendValue('/')" class="button">/</button>
+
+        </div>
+        <div class="row">
+            <button onclick="appendValue('4')" class="button">4</button>
+            <button onclick="appendValue('5')" class="button">5</button>
+            <button onclick="appendValue('6')" class="button">6</button>
+            <button onclick="appendValue('*')" class="button">*</button>
+        </div>
+        <div class="row">
+            <button onclick="appendValue('1')" class="button">1</button>
+            <button onclick="appendValue('2')" class="button">2</button>
+            <button onclick="appendValue('3')" class="button">3</button>
+            <button onclick="appendValue('+')" class="button">+</button>
+        </div>
+        <div class="row">
+            <button onclick="appendValue('0')" class="button">0</button>
+            <button onclick="appendValue('.')" class="button">.</button>          
+            <button onclick="calculate()" class="button">=</button>
+            <button onclick="appendValue('-')" class="button">-</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
